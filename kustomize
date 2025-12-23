@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - ghcr.io/amey-bhargave/test-html-code=ghcr.io/amey-bhargave/test-html-code:sha-4be3335a11f63fd551b3f5ebf3513bf1e5cec1c7
