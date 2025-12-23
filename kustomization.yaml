@@ -5,5 +5,5 @@ resources:
   - service.yaml
 images:
   - name: ghcr.io/amey-bhargave/test-html-code
-    newTag: sha-49380b26d983b8a7b6a4ababcf9cd9e6462e3fbc
+    newTag: sha-905e10cf249c4a6b12b1c06e045f4adee5c85c51
     newName: ghcr.io/amey-bhargave/test-html-code
