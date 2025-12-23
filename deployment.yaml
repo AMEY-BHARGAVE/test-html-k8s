@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-html
+  namespace: hello-html
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-html
+  template:
+    metadata:
+      labels:
+        app: hello-html
+    spec:
+      containers:
+        - name: hello-html
+          image: ghcr.io/amey-bhargave/test-html-code:latest
+          ports:
+            - containerPort: 80
