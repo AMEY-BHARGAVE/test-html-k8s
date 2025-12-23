@@ -7,4 +7,4 @@ resources:
 
 images:
   - name: ghcr.io/amey-bhargave/test-html-code
-    newTag: latest
+    newTag: sha-a34b27f4792ab9bf5b9520af2a6098198790ff35
