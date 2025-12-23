@@ -1,10 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 resources:
   - deployment.yaml
   - service.yaml
-
 images:
   - name: ghcr.io/amey-bhargave/test-html-code
-    newTag: sha-a34b27f4792ab9bf5b9520af2a6098198790ff35
+    newTag: sha-511e0ea96a26eff6599e2ea97220eea31133f39b
+    newName: ghcr.io/amey-bhargave/test-html-code
